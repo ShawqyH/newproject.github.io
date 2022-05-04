@@ -1,0 +1,171 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10ps 200px;
+}
+
+
+
+.menu a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+.main {
+    padding-top: 100px;
+    background: url(ITproject/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    background-attachment: fixed;
+    color: #000;
+    font-size: large;
+
+}
+
+.sections {
+    margin-left: 20px;
+
+    margin-bottom: 100px;
+}
+
+label {
+    margin-right: 10px;
+    padding: 3px 3px 3px 3px;
+    border: 2px solid goldenrod;
+    background-color: #000;
+    color: goldenrod;
+    border-radius: 7px;
+    height: 30px;
+    font-weight: 600;
+
+}
+
+ul {
+    width: 150px;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* width: 400px;
+    height: 30px; */
+    font-weight: 600;
+    font-size: 12px;
+}
+
+button a:hover {
+    color: goldenrod;
+}
+
+button {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 3px 3px;
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    transition: 0.7s;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: black;
+
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#copyright {
+    color: goldenrod;
+}
+
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+#yt {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: red;
+    border: white;
+}
+
+
+#fb {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blue;
+}
+
+#go {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+}
+
+#wp {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: green;
+}
+
+#in {
+    margin-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blueviolet;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+footer ul{
+    justify-content: space-between;
+}
+
+.fttitle span {
+    color: goldenrod;
+}
